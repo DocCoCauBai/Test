@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         Text("Hello SwiftUI, world!")
         .padding().foregroundColor(.orange)
+        Button("Button") {
+            print("tap button")
+        }
     }
 }
 
