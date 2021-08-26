@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("BaoPT")
+        Text("Hello SwiftUI")
         .padding().foregroundColor(.orange)
         Button("Button") {
             print("tap button")
